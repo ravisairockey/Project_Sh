@@ -22128,7 +22128,7 @@ GameObject:
   - component: {fileID: 114166992771378430}
   m_Layer: 9
   m_Name: Ellen
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

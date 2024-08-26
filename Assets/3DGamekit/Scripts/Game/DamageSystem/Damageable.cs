@@ -65,6 +65,17 @@ namespace Gamekit3D
             OnResetDamage.Invoke();
         }
 
+        public void Healskill(int _amtToHeal)
+        {
+            if (currentHitPoints < maxHitPoints)
+            {
+                currentHitPoints += _amtToHeal;
+                isInvulnerable = false;
+                m_timeSinceLastHit = 0.0f;
+                OnResetDamage.Invoke();
+            }
+        }
+
         public void SetColliderState(bool enabled)
         {
             m_Collider.enabled = enabled;

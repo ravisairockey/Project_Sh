@@ -14717,6 +14717,7 @@ GameObject:
   - component: {fileID: 82749890454114064}
   - component: {fileID: 114132424652719980}
   - component: {fileID: 5182620166006493396}
+  - component: {fileID: 1365087382587084657}
   m_Layer: 0
   m_Name: Leaves buff
   m_TagString: Untagged
@@ -19743,6 +19744,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifetime: 1.7
+--- !u!114 &1365087382587084657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207179939759570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3742964c609992e40a8eafd83c55cb8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healAmount: 50
 --- !u!1 &1325694965833828
 GameObject:
   m_ObjectHideFlags: 0
