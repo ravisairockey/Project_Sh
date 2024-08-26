@@ -105,6 +105,11 @@ namespace Gamekit3D
             get { return !Mathf.Approximately(m_Input.MoveInput.sqrMagnitude, 0f); }
         }
 
+        private void OnCollisionEnter(Collision collision)
+        {
+            Debug.Log("Colliding with : " + collision.gameObject.name);
+        }
+
         public void SetCanAttack(bool canAttack)
         {
             this.canAttack = canAttack;
