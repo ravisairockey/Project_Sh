@@ -8,7 +8,11 @@ namespace Gamekit3D
     [RequireComponent(typeof(CharacterController))]
     [RequireComponent(typeof(Animator))]
     public class PlayerController : MonoBehaviour, IMessageReceiver
+
     {
+
+
+
         protected static PlayerController s_Instance;
         public static PlayerController instance { get { return s_Instance; } }
 
@@ -99,6 +103,9 @@ namespace Gamekit3D
 
         // Tags
         readonly int m_HashBlockInput = Animator.StringToHash("BlockInput");
+
+
+
 
         protected bool IsMoveInput
         {
