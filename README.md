@@ -1,2 +1,2 @@
 # Project_Sh
-a medival style game .
+a A Simple Adventure Game.
