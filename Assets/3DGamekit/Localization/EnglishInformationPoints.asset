@@ -14,9 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   language: English
   phrases:
-  - key: INFO1
-    value: Where am I? Can I even move my legs? I'll try W, A, S, and D. Maybe they'll
-      start to feel normal again.
+  - key: Tutorial
+    value: Fuck This i am making an video how?/
   - key: INFO2
     value: Oho ! i have Save my self . I'll try LEFT CLICK on my MOUSE and see..if
       it helps...
@@ -53,3 +52,5 @@ MonoBehaviour:
     value: The Door Opened,Yes!
   - key: INFO15
     value: I think there can be more of these Special skills ...
+  - key: no access
+    value: shouldnt be here
