@@ -9,6 +9,7 @@ namespace Gamekit3D
     [RequireComponent(typeof(NavMeshAgent))]
     public class GrenadierBehaviour : MonoBehaviour
     {
+        public float delayDeath = 10f;
         public enum OrientationState
         {
             IN_TRANSITION,
@@ -137,6 +138,7 @@ namespace Gamekit3D
         {
             deathAudioPlayer.PlayRandomClip();
             m_EnemyController.animator.SetTrigger(hashDeathParam);
+            Destroy(this.gameObject, delayDeath);
         }
 
         public void ActivateShield()
