@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71bea4c010b684720a24c8646da392e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minScale: 2.76
-  maxScale: 3.44
+  minScale: 0.5
+  maxScale: 1.98
   gameObjects:
   - {fileID: 1531252559817340}

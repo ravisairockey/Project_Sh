@@ -9,7 +9,7 @@ namespace Gamekit3D
     [RequireComponent(typeof(NavMeshAgent))]
     public class GrenadierBehaviour : MonoBehaviour
     {
-        public float delayDeath = 10f;
+        public float delayDeath = 8f;
         public enum OrientationState
         {
             IN_TRANSITION,
@@ -68,6 +68,8 @@ namespace Gamekit3D
         protected Color m_OriginalCoreMaterial;
 
         protected float m_ShieldActivationTime;
+
+        [SerializeField] GrenadorUI grenadorSldier;
 
 
         void OnEnable()
