@@ -15,7 +15,7 @@ MonoBehaviour:
   language: English
   phrases:
   - key: Tutorial
-    value: Fuck This i am making an video how?/
+    value: Try moving around
   - key: INFO2
     value: Oho ! i have Save my self . I'll try LEFT CLICK on my MOUSE and see..if
       it helps...
@@ -35,7 +35,8 @@ MonoBehaviour:
     value: This platform Seems little different.May be I should walk along on it
       or i may fall into acid
   - key: INFO9
-    value: Oho i Need to find Some usable data for my research leave this place quick.
+    value: Oho i Need to find Some usable data for my research and  leave this place
+      quick.
   - key: INFO10
     value: I think I can now safely cross the acid Pool...Uff
   - key: INFO11
@@ -51,6 +52,6 @@ MonoBehaviour:
   - key: Door
     value: The Door Opened,Yes!
   - key: INFO15
-    value: I think there can be more of these Special skills ...
+    value: those grenadors are guaring this tight , There much be someting valuable
   - key: no access
     value: shouldnt be here
