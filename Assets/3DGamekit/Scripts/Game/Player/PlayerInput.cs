@@ -22,11 +22,6 @@ public class PlayerInput : MonoBehaviour
     protected bool m_Attack;
     protected bool m_Pause;
     protected bool m_ExternalInputBlocked;
-    
-
-
-
- 
 
     public Vector2 MoveInput
     {
@@ -84,7 +79,6 @@ public class PlayerInput : MonoBehaviour
         m_Movement.Set(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         m_Camera.Set(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
         m_Jump = Input.GetButton("Jump");
-       
 
         if (Input.GetButtonDown("Fire1"))
         {
@@ -120,6 +114,4 @@ public class PlayerInput : MonoBehaviour
     {
         m_ExternalInputBlocked = false;
     }
-
-
 }

@@ -3,9 +3,8 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -14,44 +13,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   language: English
   phrases:
-  - key: Tutorial
-    value: Try moving around
+  - key: INFO1
+    value: Where am I? Can I even move my legs? I'll try W, A, S, and D. Maybe they'll
+      start to feel normal again.
   - key: INFO2
-    value: Oho ! i have Save my self . I'll try LEFT CLICK on my MOUSE and see..if
-      it helps...
+    value: Can I jump over this if I press SPACE?
   - key: INFO3
-    value: Hey on top ! I saw a similar statue back there!
+    value: This looks fun to smash stuff with! I'll try LEFT CLICK on my MOUSE and
+      see what happens...
   - key: INFO4
-    value: That Door , Does it open?
+    value: 'Oooh what a weird stepping stone... I want to tread on it and see what
+      it does. '
   - key: INFO4b
     value: 'This must open somehow. I''ll explore and see what I can find. '
   - key: INFO5
-    value: Oho Fireflies Are they calling me ?
-  - key: INFO6
-    value: I see a create may be it has some treasure.
-  - key: INFO7
-    value: There is something floating on in sky let me try to reach it.
-  - key: INFO8
-    value: This platform Seems little different.May be I should walk along on it
-      or i may fall into acid
-  - key: INFO9
-    value: Oho i Need to find Some usable data for my research and  leave this place
-      quick.
-  - key: INFO10
-    value: I think I can now safely cross the acid Pool...Uff
-  - key: INFO11
-    value: i cant be here, not safe.
-  - key: INFO12
-    value: It looks like an Entrance Portal or an Passage....
-  - key: INFO13
-    value: Wow What is that Looks like I HIT an Jackpot...
-  - key: skill01
-    value: Wow I got some Healing Ability i Can feel it (press "1" and see)
-  - key: INFO14
-    value: Its so dark in here I should be carefull..
-  - key: Door
-    value: The Door Opened,Yes!
-  - key: INFO15
-    value: those grenadors are guaring this tight , There much be someting valuable
-  - key: no access
-    value: shouldnt be here
+    value: I wonder what those massive door crystals are for? I should look around
+      for some more switches.
